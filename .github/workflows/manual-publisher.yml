@@ -79,23 +79,46 @@ jobs:
           echo "name=$MOD_NAME" >> $GITHUB_OUTPUT
           echo "version=$MOD_VERSION" >> $GITHUB_OUTPUT
 
-      - name: Package Factorio Mod
+      - name: Upload to Factorio Mod Portal (Auto-detect New vs Existing)
         if: ${{ github.event.inputs.mod_folder_path != '' }}
         run: |
-          TARGET_PATH="${{ github.event.inputs.mod_folder_path }}"
-          ZIP_NAME="${{ steps.mod-info.outputs.name }}_${{ steps.mod-info.outputs.version }}.zip"
-          mkdir -p "dist/${{ steps.mod-info.outputs.name }}_${{ steps.mod-info.outputs.version }}"
-          cp -r $TARGET_PATH/* "dist/${{ steps.mod-info.outputs.name }}_${{ steps.mod-info.outputs.version }}/"
-          cd dist && zip -r "../$ZIP_NAME" . && cd ..
-          echo "ZIP_PATH=$(pwd)/$ZIP_NAME" >> $GITHUB_ENV
+          MOD_NAME="${{ steps.mod-info.outputs.name }}"
+          echo "Checking if $MOD_NAME already exists on the Mod Portal..."
 
-      - name: Upload to Factorio Mod Portal (Direct Curl)
-        if: ${{ github.event.inputs.mod_folder_path != '' }}
-        run: |
-          echo "Uploading ${{ steps.mod-info.outputs.name }} to Factorio Mod Portal..."
-          
-          # This hits the single direct-upload multipart endpoint, bypassing S3 handshakes
-          curl -X POST "https://mods.factorio.com/api/mods/publish" \
+          # Query the public API to check existence
+          STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "https://mods.factorio.com/api/mods/$MOD_NAME")
+
+          if [ "$STATUS_CODE" -eq 404 ]; then
+            echo "🟢 Mod not found on portal. Directing to creation endpoint (init_publish)..."
+            ENDPOINT="https://mods.factorio.com/api/v2/mods/init_publish"
+          elif [ "$STATUS_CODE" -eq 200 ]; then
+            echo "⚪ Mod exists. Directing to update endpoint (releases/init_upload)..."
+            ENDPOINT="https://mods.factorio.com/api/v2/mods/releases/init_upload"
+          else
+            echo "::error::Unexpected API response ($STATUS_CODE) when looking up mod."
+            exit 1
+          fi
+
+          # Step 1: Request permission to upload based on the dynamically selected endpoint
+          INIT_RESPONSE=$(curl -s -X POST "$ENDPOINT" \
             -H "Authorization: Bearer ${{ secrets.FACTORIO_MODS_TOKEN }}" \
-            -F "mod=@${{ env.ZIP_PATH }}" \
+            -F "mod=$MOD_NAME")
+
+          # Check if the initialization step threw an error
+          if echo "$INIT_RESPONSE" | jq -e '.error' > /dev/null; then
+            echo "::error::Initialization failed: $(echo "$INIT_RESPONSE" | jq -r '.message')"
+            exit 1
+          fi
+
+          # Extract the unique, temporal AWS target string from Factorio's server response
+          UPLOAD_URL=$(echo "$INIT_RESPONSE" | jq -r '.upload_url')
+
+          echo "Streaming file payload directly to storage container..."
+          
+          # Step 2: Stream the file as a raw binary payload via PUT to satisfy S3 expectations
+          curl -s -X PUT "$UPLOAD_URL" \
+            -H "Content-Type: application/zip" \
+            --data-binary "@${{ env.ZIP_PATH }}" \
             --fail-with-body
+
+          echo "🎉 Upload transaction complete!"
