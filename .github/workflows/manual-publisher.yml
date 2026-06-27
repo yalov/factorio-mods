@@ -1,0 +1,99 @@
+name: Manual Factorio Mod Tool
+
+on:
+  workflow_dispatch:
+    inputs:
+      mod_folder_path:
+        description: 'Path to the mod (folder with info.json). LEAVE BLANK to just audit/list all mods.'
+        required: false
+        type: string
+
+jobs:
+  process-mods:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # --- ROUTE A: Audit mode (Run if input is empty) ---
+      - name: Audit and Print All Mods Status
+        if: ${{ github.event.inputs.mod_folder_path == '' }}
+        run: |
+          echo "### 🔍 Factorio Monorepo Audit Report" >> $GITHUB_STEP_SUMMARY
+          echo "| Repo Path | Mod Name | Local Version | Portal Version | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|---|---|---|" >> $GITHUB_STEP_SUMMARY
+
+          PATHS=$(find . -name "info.json" -not -path '*/.*' | sed 's|/[^/]*$||' | sed 's|^\./||')
+
+          for path in $PATHS; do
+            LOCAL_NAME=$(jq -r '.name' "$path/info.json")
+            LOCAL_VERSION=$(jq -r '.version' "$path/info.json")
+
+            # Get Portal Data
+            RESPONSE=$(curl -s -o response.json -w "%{http_code}" "https://mods.factorio.com/api/mods/$LOCAL_NAME")
+            
+            if [ "$RESPONSE" -eq 404 ]; then
+              PORTAL_VERSION="Not Uploaded"
+              STATUS="🟢 New Mod (Ready to publish)"
+            elif [ "$RESPONSE" -eq 200 ]; then
+              PORTAL_VERSION=$(jq -r '.releases[-1].version // "0.0.0"' response.json)
+              
+              if [ "$LOCAL_VERSION" == "$PORTAL_VERSION" ]; then
+                STATUS="⚪ Up to date"
+              else
+                NEWEST=$(printf "%s\n%s" "$LOCAL_VERSION" "$PORTAL_VERSION" | sort -V | tail -n1)
+                if [ "$NEWEST" == "$LOCAL_VERSION" ]; then
+                  STATUS="⚠️ Bumped (Ready to publish)"
+                else
+                  STATUS="❌ Portal is ahead"
+                fi
+              fi
+            else
+              PORTAL_VERSION="Error"
+              STATUS="🔴 API Error ($RESPONSE)"
+            fi
+
+            # Append to the GitHub GUI step summary table
+            echo "| \`$path\` | $LOCAL_NAME | \`v$LOCAL_VERSION\` | \`v$PORTAL_VERSION\` | $STATUS |" >> $GITHUB_STEP_SUMMARY
+          done
+          
+          echo "Audit complete! View the table below or in the Action Summary tab."
+
+      # --- ROUTE B: Publish mode (Run only if path is provided) ---
+      - name: Validate Manual Path
+        if: ${{ github.event.inputs.mod_folder_path != '' }}
+        run: |
+          TARGET_PATH="${{ github.event.inputs.mod_folder_path }}"
+          if [ ! -f "$TARGET_PATH/info.json" ]; then
+            echo "::error::Could not find info.json at '$TARGET_PATH/info.json'."
+            exit 1
+          fi
+
+      - name: Parse Mod Metadata
+        id: mod-info
+        if: ${{ github.event.inputs.mod_folder_path != '' }}
+        run: |
+          TARGET_PATH="${{ github.event.inputs.mod_folder_path }}"
+          MOD_NAME=$(jq -r '.name' "$TARGET_PATH/info.json")
+          MOD_VERSION=$(jq -r '.version' "$TARGET_PATH/info.json")
+          echo "name=$MOD_NAME" >> $GITHUB_OUTPUT
+          echo "version=$MOD_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Package Factorio Mod
+        if: ${{ github.event.inputs.mod_folder_path != '' }}
+        run: |
+          TARGET_PATH="${{ github.event.inputs.mod_folder_path }}"
+          ZIP_NAME="${{ steps.mod-info.outputs.name }}_${{ steps.mod-info.outputs.version }}.zip"
+          mkdir -p "dist/${{ steps.mod-info.outputs.name }}_${{ steps.mod-info.outputs.version }}"
+          cp -r $TARGET_PATH/* "dist/${{ steps.mod-info.outputs.name }}_${{ steps.mod-info.outputs.version }}/"
+          cd dist && zip -r "../$ZIP_NAME" . && cd ..
+          echo "ZIP_PATH=$(pwd)/$ZIP_NAME" >> $GITHUB_ENV
+
+      - name: Upload to Factorio Mod Portal
+        if: ${{ github.event.inputs.mod_folder_path != '' }}
+        uses: mchangrh/factorio-mod-upload@v2
+        with:
+          mod-name: ${{ steps.mod-info.outputs.name }}
+        env:
+          FACTORIO_MODS_TOKEN: ${{ secrets.FACTORIO_MODS_TOKEN }}
+          FILENAME: ${{ env: ZIP_PATH }}
