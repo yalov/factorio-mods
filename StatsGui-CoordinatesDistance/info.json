@@ -1,0 +1,12 @@
+{
+    "name": "StatsGui-CoordinatesDistance",
+    "version": "1.0.2",
+    "title": "Stats GUI — Coordinates, Distance",
+    "author": "flart",
+    "description": "Adds coordinates of player and distance from a point, specified in the settings.",
+    "factorio_version": "2.0",
+    "dependencies": [
+        "base",
+        "StatsGui"
+    ]
+}
