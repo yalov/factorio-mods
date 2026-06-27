@@ -1,0 +1,14 @@
+{
+    "name": "virtual-signals-2-fork",
+    "version": "2.0.0",
+    "title": "Virtual Signals 2 Fork",
+    "author": "flart,fe3dback",
+    "contact": "",
+    "homepage": "",
+    "dependencies": [
+        "base",
+        "! virtual-signals2"
+    ],
+    "factorio_version": "2.1",
+    "description": "Larger Virtual Signals 2 fork with transparent background, black contour, extra signals, and reorderable groups."
+}

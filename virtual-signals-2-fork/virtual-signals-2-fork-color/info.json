@@ -1,0 +1,14 @@
+{
+    "name": "virtual-signals-2-fork-color",
+    "version": "2.0.0",
+    "title": "Virtual Signals 2 Fork Color",
+    "author": "flart,fe3dback",
+    "contact": "",
+    "homepage": "",
+    "dependencies": [
+        "base",
+        "! virtual-signals2"
+    ],
+    "factorio_version": "2.1",
+    "description": "Color variant of Virtual Signals 2 Fork with tinted backgrounds, extra signals, and reorderable groups."
+}

@@ -1,0 +1,331 @@
+group                     , ID                             , data  , S   , X  , Y  , Icon, LBL, vani, hidden, order, en                             , ru
+virtual-signal-number     , signal-0                       , 0     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-1                       , 1     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-2                       , 2     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-3                       , 3     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-4                       , 4     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-5                       , 5     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-6                       , 6     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-7                       , 7     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-8                       , 8     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-9                       , 9     , 2.95,    , -56,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-number     , signal-10                      , 10    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 10                      , Сигнал 10
+virtual-signal-number     , signal-11                      , 11    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 11                      , Сигнал 11
+virtual-signal-number     , signal-12                      , 12    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 12                      , Сигнал 12
+virtual-signal-number     , signal-13                      , 13    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 13                      , Сигнал 13
+virtual-signal-number     , signal-14                      , 14    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 14                      , Сигнал 14
+virtual-signal-number     , signal-15                      , 15    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 15                      , Сигнал 15
+virtual-signal-number     , signal-16                      , 16    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 16                      , Сигнал 16
+virtual-signal-number     , signal-17                      , 17    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 17                      , Сигнал 17
+virtual-signal-number     , signal-18                      , 18    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 18                      , Сигнал 18
+virtual-signal-number     , signal-19                      , 19    , 1.75, -25, -30,     ,    ,     ,       ,      , Signal 19                      , Сигнал 19
+virtual-signal-number     , signal-20                      , 20    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 20                      , Сигнал 20
+virtual-signal-number     , signal-24                      , 24    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 24                      , Сигнал 24
+virtual-signal-number     , signal-25                      , 25    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 25                      , Сигнал 25
+virtual-signal-number     , signal-28                      , 28    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 28                      , Сигнал 28
+virtual-signal-number     , signal-30                      , 30    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 30                      , Сигнал 30
+virtual-signal-number     , signal-32                      , 32    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 32                      , Сигнал 32
+virtual-signal-number     , signal-36                      , 36    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 36                      , Сигнал 36
+virtual-signal-number     , signal-40                      , 40    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 40                      , Сигнал 40
+virtual-signal-number     , signal-45                      , 45    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 45                      , Сигнал 45
+virtual-signal-number     , signal-50                      , 50    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 50                      , Сигнал 50
+virtual-signal-number     , signal-55                      , 55    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 55                      , Сигнал 55
+virtual-signal-number     , signal-60                      , 60    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 60                      , Сигнал 60
+virtual-signal-number     , signal-64                      , 64    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 64                      , Сигнал 64
+virtual-signal-number     , signal-65                      , 65    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 65                      , Сигнал 65
+virtual-signal-number     , signal-70                      , 70    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 70                      , Сигнал 70
+virtual-signal-number     , signal-75                      , 75    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 75                      , Сигнал 75
+virtual-signal-number     , signal-80                      , 80    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 80                      , Сигнал 80
+virtual-signal-number     , signal-90                      , 90    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 90                      , Сигнал 90
+virtual-signal-number     , signal-96                      , 96    , 1.75,    , -30,     ,    ,     ,       ,      , Signal 96                      , Сигнал 96
+virtual-signal-number     , signal-100                     , 100   , 1.35, -17, -20,     ,    ,     ,       ,      , Signal 100                     , Сигнал 100
+virtual-signal-letter     , signal-A                       , A     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-B                       , B     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-C                       , C     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-D                       , D     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-E                       , E     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-F                       , F     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-G                       , G     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-H                       , H     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-I                       , I     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-J                       , J     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-K                       , K     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-L                       , L     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-M                       , M     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-N                       , N     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-O                       , O     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-P                       , P     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-Q                       , Q     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-R                       , R     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-S                       , S     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-T                       , T     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-U                       , U     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-V                       , V     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-W                       , W     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-X                       , X     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-Y                       , Y     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-Z                       , Z     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , question                       , ?     , 2.3 ,    , -40,     ,    ,     , Y     ,      , Question                       , Вопрос
+virtual-signal-letter     , exclamation                    , !     , 2.3 ,    , -40,     ,    ,     , Y     ,      , Exclamation                    , Восклицание
+virtual-signal-letter     , signal-comma                   , \u002C, 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-letter-dot              , .     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-exclamation-mark        , !     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-letter     , signal-question-mark           , ?     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-colon                   , :     , 2.3 ,    , -75,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-slash                   , /     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-apostrophe              , '     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-quotation-mark          , \u0022, 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-ampersand               , &     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-circumflex-accent       , ^     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-number-sign             , #     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-punctuation, signal-percent                 , %     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-plus                    , +     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-minus                   , -     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-multiplication          , *     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-division                , ÷     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-equal                   , =     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-not-equal               , ≠     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-less-than               , <     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-greater-than            , >     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-less-than-or-equal-to   , ≤     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-greater-than-or-equal-to, ≥     , 2.3 ,    , -60,     ,    , Y   ,       ,      ,                                ,
+virtual-signal-math       , signal-left-parenthesis        , (     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-right-parenthesis       , )     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-left-square-bracket     , [     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+virtual-signal-math       , signal-right-square-bracket    , ]     , 2.3 ,    , -40,     ,    , Y   ,       ,      ,                                , 
+
+virtual-signal-color      , transparent                    ,       ,     ,    ,    ,     ,    ,     ,       ,      , Signal Transparent             , Сигнал Прозрачный
+
+vs2-cmn                   , on                             , ON    ,     ,    ,    ,     ,    ,     ,       ,      , Signal ON                      , Сигнал ВКЛ
+vs2-cmn                   , off                            , OFF   ,     ,    ,    ,     ,    ,     ,       ,      , Signal OFF                     , Сигнал ВЫКЛ
+vs2-cmn                   , min                            , MIN   ,     ,    ,    ,     ,    ,     ,       ,      , Signal MIN                     , Сигнал МИН
+vs2-cmn                   , max                            , MAX   ,     ,    ,    ,     ,    ,     ,       ,      , Signal MAX                     , Сигнал МАКС
+vs2-cmn                   , in                             , IN    ,     ,    ,    ,     ,    ,     ,       ,      , Signal IN                      , Сигнал ВХОД
+vs2-cmn                   , out                            , OUT   ,     ,    ,    ,     ,    ,     ,       ,      , Signal OUT                     , Сигнал ВЫХОД
+vs2-cmn                   , yes                            , YES   ,     ,    ,    ,     ,    ,     ,       ,      , Signal YES                     , Сигнал ДА
+vs2-cmn                   , no                             , NO    ,     ,    ,    ,     ,    ,     ,       ,      , Signal NO                      , Сигнал НЕТ
+vs2-cmn                   , tick                           , TICK  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Tick                    , Сигнал Тик
+vs2-cmn                   , tock                           , TOCK  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Tock                    , Сигнал Тoк
+vs2-cmn2                  , size                           , SIZE  ,     ,    ,    ,     ,    ,     ,       ,      , Signal Size                    , Сигнал Размер
+vs2-cmn2                  , buffer                         , BUF   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Buffer                  , Сигнал Буфер
+vs2-cmn2                  , cur                            , CUR   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Current                 , Сигнал Текущее
+vs2-cmn2                  , sum                            , SUM   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Sum                     , Сигнал Сумма
+vs2-cmn2                  , limit                          , LIM   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Limit                   , Сигнал Лимит
+vs2-cmn2                  , capacity                       , CAP   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Capacity                , Сигнал Объём
+vs2-cmn2                  , nil                            , NIL   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Nil                     , Сигнал Пусто
+vs2-cmn2                  , test                           , TEST  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Test                    , Сигнал Тест
+vs2-cmn2                  , new                            , NEW   , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal New                     , Сигнал Новый
+vs2-cmn2                  , old                            , OLD   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Old                     , Сигнал Старый
+vs2-cmn2                  , low                            , LOW   , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Low                     , Сигнал Низкий
+vs2-cmn2                  , high                           , HIGH  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal High                    , Сигнал Высокий
+vs2-cmn2                  , full                           , FULL  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Full                    , Сигнал Полный
+vs2-cmn2                  , request                        , REQ   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Request                 , Сигнал Запрос
+vs2-cmn2                  , response                       , RES   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Response                , Сигнал Ответ
+vs2-cmn2                  , second                         , SEC   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Second                  , Сигнал Секунда
+vs2-cmn2                  , minute                         , MIN   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Minute                  , Сигнал Минута
+vs2-cmn2                  , hour                           , HOUR  , 0.8 ,    ,    ,     ,    ,     ,       ,      , Signal Hour                    , Сигнал Час
+vs2-cmn2                  , day                            , DAY   , 0.8 ,    ,    ,     ,    ,     ,       ,      , Signal Day                     , Сигнал День
+vs2-cmn2                  , fuck                           , FUCK  , 0.8 ,    ,    ,     ,    ,     ,       ,      , Signal Fuck                    , Сигнал Бля
+vs2-cmn2                  , ok                             , \uF00C, 1.35,    , -8 , Y   ,    ,     ,       ,      , Signal OK                      , Сигнал OK
+vs2-cmn2                  , check                          , \uF560, 1.35,    , -8 , Y   ,    ,     ,       ,      , Signal Check                   , Сигнал Проверка
+vs2-cmn2                  , cloak                          , \uF017, 1.35,    , -8 , Y   ,    ,     , Y     ,      , Signal Clock                   , Сигнал Время
+vs2-cmn2                  , play                           , \uF01D, 1.35,    , -8 , Y   ,    ,     ,       ,      , Signal Play                    , Сигнал Воспроизведение
+vs2-cmn2                  , pause                          , \uF28B, 1.35,    , -8 , Y   ,    ,     ,       ,      , Signal Pause                   , Сигнал Пауза
+vs2-cmn2                  , stop                           , \uF28D, 1.35,    , -8 , Y   ,    ,     ,       ,      , Signal Stop                    , Сигнал Стоп
+vs2-cmn2                  , positive                       , \uF055, 1.35,    , -8 , Y   ,    ,     ,       ,      , Signal Positive                , Сигнал Положительное
+vs2-cmn2                  , negative                       , \uF056, 1.35,    , -8 , Y   ,    ,     ,       ,      , Signal Negative                , Сигнал Отрицательное
+vs2-cmn2                  , lock                           , \uF023, 1.35,    , -8 , Y   ,    ,     , Y     ,      , Signal Lock                    , Сигнал Блокировка
+vs2-cmn2                  , unlock                         , \uF3C1, 1.35,    , -8 , Y   ,    ,     , Y     ,      , Signal Unlock                  , Сигнал Разблокировка
+vs2-cmn2                  , empty                          , \u0020,     ,    ,    ,     ,    ,     , Y     ,      , Signal Empty                   , Сигнал Пусто
+vs2-cmn3                  , size_small                     , SM    ,     ,    ,    ,     ,    ,     ,       ,      , Signal Small                   , Сигнал Малый
+vs2-cmn3                  , size_medium                    , MD    ,     ,    ,    ,     ,    ,     ,       ,      , Signal Medium                  , Сигнал Средний
+vs2-cmn3                  , size_large                     , LG    ,     ,    ,    ,     ,    ,     ,       ,      , Signal Large                   , Сигнал Большой
+vs2-cmn3                  , size_extra_large               , XL    ,     ,    ,    ,     ,    ,     ,       ,      , Signal Extra Large             , Сигнал Очень большой
+vs2-cmn3                  , size_xxl                       , XXL   ,     ,    ,    ,     ,    ,     ,       ,      , Signal XXL                     , Сигнал Огромный
+vs2-cmn3                  , sev_info                       , INF   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Info                    , Сигнал Информация
+vs2-cmn3                  , sev_warn                       , WRN   , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Warning                 , Сигнал Предупреждение
+vs2-cmn3                  , sev_err                        , ERR   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Error                   , Сигнал Ошибка
+vs2-cmn3                  , sev_critical                   , CRT   ,     ,    ,    ,     ,    ,     ,       ,      , Signal Critical                , Сигнал Критический
+vs2-cmn3                  , alert                          , ALRT  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Alert                   , Сигнал Тревога
+vs2-cmn3                  , trigger                        , TRIG  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal Trigger                 , Сигнал Триггер
+vs2-cmn3                  , if                             , IF    ,     ,    ,    ,     ,    ,     ,       ,      , Signal IF                      , Сигнал Если
+vs2-cmn3                  , else                           , ELSE  , 0.9 ,    ,    ,     ,    ,     ,       ,      , Signal ELSE                    , Сигнал Иначе
+vs2-cmn3                  , var_x                          , X     ,     ,    ,    , Y   ,    ,     , Y     ,      , Signal X                       , Сигнал X
+vs2-cmn3                  , var_y                          , Y     ,     ,    ,    , Y   ,    ,     , Y     ,      , Signal Y                       , Сигнал Y
+vs2-cmn3                  , var_z                          , Z     ,     ,    ,    , Y   ,    ,     , Y     ,      , Signal Z                       , Сигнал Z
+vs2-cmn3                  , var_w                          , W     ,     ,    ,    , Y   ,    ,     , Y     ,      , Signal W                       , Сигнал W
+vs2-cmn3                  , color_r                        , R     ,     ,    ,    , Y   ,    ,     , Y     ,      , Signal R                       , Сигнал R
+vs2-cmn3                  , color_g                        , G     ,     ,    ,    , Y   ,    ,     , Y     ,      , Signal G                       , Сигнал G
+vs2-cmn3                  , color_b                        , B     ,     ,    ,    , Y   ,    ,     , Y     ,      , Signal B                       , Сигнал B
+vs2-cmn3                  , action                         , ACT   ,     ,    ,    ,     ,    ,     ,       ,      , Signal ACT                     , Сигнал Действие
+
+vs2-math                  , eq                             , =     , 1.35,    , 5  ,     ,    ,     , Y     ,      , Signal Equal                   , Сигнал Равно
+vs2-math                  , neq                            , ≠     , 1.35,    , 5  ,     ,    ,     , Y     ,      , Signal Not Equal               , Сигнал Не равно
+vs2-math                  , aeq                            , ≈     , 1.35,    , 5  ,     ,    ,     ,       ,      , Signal Approximate Equal       , Сигнал Примерно равно
+vs2-math                  , gt                             , >     , 1.35, 5  ,    ,     ,    ,     , Y     ,      , Signal Greater Then            , Сигнал Больше чем
+vs2-math                  , lt                             , <     , 1.35,    ,    ,     ,    ,     , Y     ,      , Signal Less Then               , Сигнал Меньше чем
+vs2-math                  , ge                             , ≥     , 1.35,    ,    ,     ,    ,     , Y     ,      , Signal Greater or Equal        , Сигнал Больше или равно
+vs2-math                  , le                             , ≤     , 1.35,    ,    ,     ,    ,     , Y     ,      , Signal Less or Equal           , Сигнал Меньше или равно
+vs2-math                  , plus                           , +     , 1.35,    , 5  ,     ,    ,     , Y     ,      , Signal Plus                    , Сигнал Плюс
+vs2-math                  , minus                          , -     , 1.75,    , -20,     ,    ,     , Y     ,      , Signal Minus                   , Сигнал Минус
+vs2-math                  , plus_minus                     , ±     , 1.35,    ,    ,     ,    ,     ,       ,      , Signal Plus-Minus              , Сигнал Плюс-минус
+vs2-math                  , percent                        , %     , 1.35,    , -15,     , Y  ,     , Y     ,      , Signal Percent                 , Сигнал Процент
+vs2-math                  , percent_per_millie             , ‰     , 1.35,    , -15,     , Y  ,     , Y     ,      , Signal Per-millie              , Сигнал Сотый процент
+vs2-math                  , one_percent                    , 1%    , 1.35, -20, -15,     , Y  ,     , Y     ,      , Signal One percent             , Сигнал Один процент
+vs2-math                  , geo_angle                      , ∠     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Angle                   , Сигнал Угол
+vs2-math                  , geo_perpendicular              , ⊥     ,     ,    , 5  ,     ,    ,     ,       ,      , Signal Perpendicular           , Сигнал Перпендикулярно
+vs2-math                  , geo_parallel                   , ∥     ,     ,    , -5 ,     ,    ,     ,       ,      , Signal Parallel                , Сигнал Параллельно
+vs2-math                  , geo_similar                    , ~     , 1.35,    , -5 ,     ,    ,     ,       ,      , Signal Similar                 , Сигнал Похожий
+vs2-math                  , algo_lemni                     , ∞     , 1.35,    , -5 ,     ,    ,     ,       ,      , Signal Infinity                , Сигнал Бесконечно
+vs2-math                  , algo_func                      , f     , 1.35,    , 5  ,     ,    ,     ,       ,      , Signal Function                , Сигнал Функция
+vs2-math                  , algo_delta                     , ∆     , 1.35,    , 5  ,     ,    ,     ,       ,      , Signal Delta                   , Сигнал Разница
+vs2-math                  , algo_sigma                     , ∑     , 1.2 ,    , -25,     ,    ,     ,       ,      , Signal Sigma                   , Сигнал Сигма
+vs2-math                  , algo_golden                    , φ     , 1.2 ,    , -10,     ,    ,     , Y     ,      , Signal Golden                  , Сигнал Золотой
+vs2-math                  , algo_pi                        , π     , 1.2 ,    , -10,     ,    ,     , Y     ,      , Signal PI                      , Сигнал Пи
+vs2-math                  , algo_e                         , e     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal e                       , Сигнал e
+vs2-math                  , algo_i                         , i     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal i                       , Сигнал i
+vs2-math                  , algo_j                         , j     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal j                       , Сигнал j
+vs2-math                  , algo_k                         , k     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal k                       , Сигнал k
+vs2-math                  , algo_integral                  , ∫     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal Integral                , Сигнал Интеграл
+vs2-math                  , algo_derivative                , ∂     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal Derivative              , Сигнал Производная
+vs2-math                  , algo_power                     , ^     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal Power                   , Сигнал Степень
+vs2-math                  , algo_sqrt                      , √     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal Square Root             , Сигнал Корень
+vs2-math                  , empty_set                      , ∅     , 1.2 ,    , -10,     ,    ,     ,       ,      , Signal Empty Set               , Сигнал Пустое множество
+
+vs2-greek                 , alpha                          , α     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Alpha                   , Сигнал Alpha
+vs2-greek                 , beta                           , β     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Beta                    , Сигнал Beta
+vs2-greek                 , gamma                          , γ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Gamma                   , Сигнал Gamma
+vs2-greek                 , delta                          , δ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Delta                   , Сигнал Delta
+vs2-greek                 , epsilon                        , ε     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Epsilon                 , Сигнал Epsilon
+vs2-greek                 , zeta                           , ζ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Zeta                    , Сигнал Zeta
+vs2-greek                 , eta                            , η     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Eta                     , Сигнал Eta
+vs2-greek                 , theta                          , θ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Theta                   , Сигнал Theta
+vs2-greek                 , iota                           , ι     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Iota                    , Сигнал Iota
+vs2-greek                 , kappa                          , κ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Kappa                   , Сигнал Kappa
+vs2-greek                 , lambda                         , λ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Lambda                  , Сигнал Lambda
+vs2-greek                 , mu                             , μ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Mu                      , Сигнал Mu
+vs2-greek                 , nu                             , ν     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Nu                      , Сигнал Nu
+vs2-greek                 , xi                             , ξ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Xi                      , Сигнал Xi
+vs2-greek                 , omicron                        , ο     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Omicron                 , Сигнал Omicron
+vs2-greek                 , pi                             , π     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Pi                      , Сигнал Pi
+vs2-greek                 , rho                            , ρ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Rho                     , Сигнал Rho
+vs2-greek                 , sigma                          , σ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Sigma                   , Сигнал Sigma
+vs2-greek                 , tau                            , τ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Tau                     , Сигнал Tau
+vs2-greek                 , upsilon                        , υ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Upsilon                 , Сигнал Upsilon
+vs2-greek                 , phi                            , φ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Phi                     , Сигнал Phi
+vs2-greek                 , chi                            , χ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Chi                     , Сигнал Chi
+vs2-greek                 , psi                            , ψ     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Psi                     , Сигнал Psi
+vs2-greek                 , omega                          , ω     , 1.35,    , -20,     ,    ,     ,       ,      , Signal Omega                   , Сигнал Omega
+
+vs2-fa                    , stack                          , \uF5FD,     ,    ,    ,     ,    ,     , Y     ,      , Signal Stack                   , Сигнал Стек
+vs2-fa                    , gear                           , \uF013,     ,    ,    ,     ,    ,     ,       ,      , Signal Gear                    , Сигнал Шестерня
+vs2-fa                    , gears                          , \uF085,     ,    ,    ,     ,    ,     ,       ,      , Signal Gears                   , Сигнал Шестерни
+vs2-fa                    , load                           , \uF019,     ,    ,    ,     ,    ,     ,       ,      , Signal Load                    , Сигнал Загрузка
+vs2-fa                    , unload                         , \uF093,     ,    ,    ,     ,    ,     ,       ,      , Signal Unload                  , Сигнал Выгрузка
+vs2-fa                    , train                          , \uF239,     ,    ,    ,     ,    ,     ,       ,      , Signal Train                   , Сигнал Поезд
+vs2-fa                    , ship                           , \uF21A,     ,    ,    ,     ,    ,     ,       ,      , Signal Ship                    , Сигнал Корабль
+vs2-fa                    , rocket                         , \uF135,     ,    ,    ,     ,    ,     ,       ,      , Signal Rocket                  , Сигнал Ракета
+vs2-fa                    , bell_on                        , \uF0F3,     ,    ,    ,     ,    ,     ,       ,      , Signal Bell On                 , Сигнал Колокол ВКЛ
+vs2-fa                    , bell_off                       , \uF1F6,     ,    ,    ,     ,    ,     ,       ,      , Signal Bell Off                , Сигнал Колокол ВЫКЛ
+vs2-fa                    , puzzle                         , \uF12E,     ,    ,    ,     ,    ,     ,       ,      , Signal Component               , Сигнал Компонент
+vs2-fa                    , left                           , \uF30A,     ,    ,    ,     ,    ,     , Y     ,      , Signal Left                    , Сигнал Лево
+vs2-fa                    , right                          , \uF30B,     ,    ,    ,     ,    ,     , Y     ,      , Signal Right                   , Сигнал Право
+vs2-fa                    , up                             , \uF30C,     ,    ,    ,     ,    ,     , Y     ,      , Signal Up                      , Сигнал Верх
+vs2-fa                    , down                           , \uF309,     ,    ,    ,     ,    ,     , Y     ,      , Signal Down                    , Сигнал Низ
+vs2-fa                    , planet                         , \uF0AC,     ,    ,    ,     ,    ,     ,       ,      , Signal Planet                  , Сигнал Планета
+vs2-fa                    , location                       , \uF3C5,     ,    ,    ,     ,    ,     , Y     ,      , Signal Location                , Сигнал Локация
+vs2-fa                    , plug                           , \uF1E6,     ,    ,    ,     ,    ,     ,       ,      , Signal Plug                    , Сигнал Подключить
+vs2-fa                    , power_exc                      , \uE55D,     ,    ,    ,     ,    ,     ,       ,      , Signal Power Warning           , Сигнал Питание Проблема
+vs2-fa                    , power_ok                       , \uE55C,     ,    ,    ,     ,    ,     ,       ,      , Signal Power OK                , Сигнал Питание OK
+vs2-fa                    , power_bolt                     , \uE55B,     ,    ,    ,     ,    ,     ,       ,      , Signal Power Bolt              , Сигнал Питание Молния
+vs2-fa                    , wireless                       , \uF1EB,     ,    ,    ,     ,    ,     ,       ,      , Signal Wireless                , Сигнал Беспроводной
+vs2-fa                    , signal                         , \uF012,     ,    ,    ,     ,    ,     ,       ,      , Signal Network Signal          , Сигнал Сетевой сигнал
+vs2-fa                    , broadcast                      , \uF519,     ,    ,    ,     ,    ,     ,       ,      , Signal Broadcast               , Сигнал Широковещание
+vs2-fa                    , satellite                      , \uF7C0,     ,    ,    ,     ,    ,     ,       ,      , Signal Satellite               , Сигнал Спутник
+vs2-fa                    , satellite2                     , \uF7BF,     ,    ,    ,     ,    ,     ,       ,      , Signal Satellite 2             , Сигнал Спутник 2
+vs2-fa                    , micro                          , \uF2DB,     ,    ,    ,     ,    ,     ,       ,      , Signal Microchip               , Сигнал Микрочип
+vs2-fa                    , liquid                         , \uF043,     ,    ,    ,     ,    ,     ,       ,      , Signal Liquid                  , Сигнал Жидкость
+vs2-fa                    , not_liquid                     , \uF5C7,     ,    ,    ,     ,    ,     ,       ,      , Signal Not Liquid              , Сигнал Не жидкость
+vs2-fa                    , env_bolt                       , \uF0E7,     ,    ,    ,     ,    ,     , Y     ,      , Signal Bolt                    , Сигнал Молния
+vs2-fa                    , env_fire                       , \uF06D,     ,    ,    ,     ,    ,     , Y     ,      , Signal Hot                     , Сигнал Горячо
+vs2-fa                    , env_cold                       , \uF2DC,     ,    ,    ,     ,    ,     , Y     ,      , Signal Cold                    , Сигнал Холодно
+vs2-fa                    , env_moon                       , \u23FE,     ,    ,    ,     ,    ,     , Y     ,      , Signal Moon                    , Сигнал Луна
+vs2-fa                    , env_sun                        , \uF185,     ,    ,    ,     ,    ,     , Y     ,      , Signal Sun                     , Сигнал Солнце
+vs2-fa                    , env_water                      , \uF773,     ,    ,    ,     ,    ,     ,       ,      , Signal Water                   , Сигнал Вода
+vs2-fa                    , env_leaf                       , \uF06C,     ,    ,    ,     ,    ,     ,       ,      , Signal Leaf                    , Сигнал Листья
+vs2-fa                    , env_wind                       , \uF72E,     ,    ,    ,     ,    ,     ,       ,      , Signal Wind                    , Сигнал Ветер
+vs2-fa                    , env_explosion                  , \uE4E9,     ,    ,    ,     ,    ,     , Y     ,      , Signal Explosion               , Сигнал Взрыв
+vs2-fa                    , env_atom                       , \uF5D2,     ,    ,    ,     ,    ,     ,       ,      , Signal Atom                    , Сигнал Атом
+vs2-fa                    , env_solar                      , \uF5BA,     ,    ,    ,     ,    ,     ,       ,      , Signal Solar                   , Сигнал Солнечный
+vs2-fa                    , env_tree                       , \uF1BB,     ,    ,    ,     ,    ,     ,       ,      , Signal Tree                    , Сигнал Дерево
+vs2-fa                    , science                        , \uF0C3,     ,    ,    ,     ,    ,     , Y     ,      , Signal Science                 , Сигнал Наука
+vs2-fa                    , microscope                     , \uF610,     ,    ,    ,     ,    ,     ,       ,      , Signal Microscope              , Сигнал Микроскоп
+vs2-fa                    , dna                            , \uF471,     ,    ,    ,     ,    ,     ,       ,      , Signal DNA                     , Сигнал ДНК
+vs2-fa                    , wrigglers                      , \uF717,     ,    ,    ,     ,    ,     ,       ,      , Signal Wrigglers               , Сигнал Пауки
+vs2-fa                    , biters                         , \uE4D0,     ,    ,    ,     ,    ,     ,       ,      , Signal Biters                  , Сигнал Кусаки
+vs2-fa                    , bug                            , \uF188,     ,    ,    ,     ,    ,     ,       ,      , Signal Bug                     , Сигнал Кусакa
+vs2-fa                    , bug_no                         , \uE490,     ,    ,    ,     ,    ,     ,       ,      , Signal No Bug                  , Сигнал нет кусак
+vs2-fa                    , bacterium                      , \uE05A,     ,    ,    ,     ,    ,     ,       ,      , Signal Bacterium               , Сигнал Бактерия
+vs2-fa                    , worm                           , \uE599,     ,    ,    ,     ,    ,     ,       ,      , Signal Worm                    , Сигнал Червь
+vs2-fa                    , arrow_right_from_bracket       , \uF08B,     ,    ,    ,     ,    ,     , Y     ,      , Signal Arrow Right From Bracket, Сигнал Стрелка Вправо Из Скобки
+vs2-fa                    , arrow_right_to_bracket         , \uF090,     ,    ,    ,     ,    ,     , Y     ,      , Signal Arrow Right To Bracket  , Сигнал Стрелка Вправо В Скобку
+vs2-fa                    , caret_left                     , \uF0D9,     ,    ,    ,     ,    ,     ,       ,      , Signal Caret Left              , Сигнал Каретка Влево
+vs2-fa                    , caret_right                    , \uF0DA,     ,    ,    ,     ,    ,     ,       ,      , Signal Caret Right             , Сигнал Каретка Вправо
+vs2-fa                    , rotate_left                    , \uF2EA,     ,    ,    ,     ,    ,     , Y     ,      , Signal Rotate Left             , Сигнал Поворот Влево
+vs2-fa                    , rotate                         , \uF2F1,     ,    ,    ,     ,    ,     ,       ,      , Signal Rotate                  , Сигнал Поворот
+vs2-fa                    , rotate_right                   , \uF2F9,     ,    ,    ,     ,    ,     , Y     ,      , Signal Rotate Right            , Сигнал Поворот Вправо
+vs2-fa                    , recycle                        , \u2672,     ,    ,    ,     ,    ,     , Y     ,      , Signal Recycle                 , Сигнал Переработка
+vs2-fa                    , shuffle                        , \uF074,     ,    ,    ,     ,    ,     , Y     ,      , Signal Shuffle                 , Сигнал Перемешивание
+vs2-fa                    , arrow-up-down                  , \uF07D,     ,    ,    ,     ,    ,     , Y     ,      , Signal Height                  , Сигнал Высота
+vs2-fa                    , arrow-left-right               , \uF07E,     ,    ,    ,     ,    ,     , Y     ,      , Signal Width                   , Сигнал Ширина
+vs2-fa                    , thermometer                    , \uF2C7, 1.15,    ,    ,     ,    ,     , Y     ,      , Signal Temperature             , Сигнал Температура
+vs2-fa                    , weight                         , \uF5CD,     ,    ,    ,     ,    ,     ,       ,      , Signal Weight                  , Сигнал Вес
+vs2-fa                    , motor                          ,       ,     ,    ,    ,     ,    ,     ,       ,      , Signal Pump                    , Сигнал Насос
+vs2-fa                    , battery_empty                  , \uF244, 1.3 ,    ,    ,     ,    ,     , Y     ,      , Signal Battery Empty           , Сигнал Пустая Батарея
+vs2-fa                    , battery_quarter                , \uF243, 1.3 ,    ,    ,     ,    ,     , Y     ,      , Signal Battery Quarter         , Сигнал Четверть Батареи
+vs2-fa                    , battery_half                   , \uF242, 1.3 ,    ,    ,     ,    ,     , Y     ,      , Signal Battery Half            , Сигнал Половина Батареи
+vs2-fa                    , battery_three_quarters         , \uF241, 1.3 ,    ,    ,     ,    ,     , Y     ,      , Signal Battery Three Quarters  , Сигнал Батарея Три Четверти
+vs2-fa                    , battery_full                   , \uF240, 1.3 ,    ,    ,     ,    ,     , Y     ,      , Signal Battery Full            , Сигнал Полная Батарея
+vs2-fa                    , warning                        , \u26A0,     ,    ,    ,     ,    ,     , Y     ,      , Signal Warning                 , Сигнал Предупреждение
+vs2-fa                    , radioactive                    , \u2622,     ,    ,    ,     ,    ,     , Y     ,      , Signal Radioactive             , Сигнал Радиоактивный
+vs2-fa                    , biohazard                      , \u2623,     ,    ,    ,     ,    ,     ,       ,      , Signal Biohazard               , Сигнал Биоопасность
+vs2-fa                    , skull                          , \u2620,     ,    ,    ,     ,    ,     , Y     ,      , Signal Skull and Crossbones    , Сигнал Череп и кости
+vs2-fa                    , package                        , \uF466,     ,    ,    ,     ,    ,     ,       ,      , Signal Package                 , Сигнал Пакет
+
+vs2-fa                    , circles-overlap-3              , \ue6a1,     ,    ,    ,     ,    ,     ,       ,      , Signal Circles Overlap 3       , Сигнал Три пересекающихся круга 
+vs2-fa                    , user-astronaut                 , \uf4fb,     ,    ,    ,     ,    ,     ,       ,      , Signal Astronaut               , Сигнал Астронавт
+vs2-fa                    , pump-impeller                  , \ue835,     ,    ,    ,     ,    ,     ,       ,      , Signal Pump Impeller           , Сигнал Насосное колесо (Pro)
+vs2-fa                    , spiral                         , \ue80a,     ,    ,    ,     ,    ,     ,       ,      , Signal Spiral                  , Сигнал Спираль
+vs2-fa                    , volume-xmark                   , \uf6a9,     ,    ,    ,     ,    ,     ,       ,      , Signal Volume Unavailable      , Сигнал Звук недоступен 
+vs2-fa                    , volume-off                     , \uf026,     ,    ,    ,     ,    ,     ,       ,      , Signal Volume Off              , Сигнал Звук выключен
+vs2-fa                    , volume-low                     , \uf027,     ,    ,    ,     ,    ,     ,       ,      , Signal Volume Low              , Сигнал Низкий уровень звука
+vs2-fa                    , volume                         , \uf6a8,     ,    ,    ,     ,    ,     ,       ,      , Signal Volume                  , Сигнал Звук
+vs2-fa                    , volume-high                    , \uf028,     ,    ,    ,     ,    ,     ,       ,      , Signal Volume High             , Сигнал Высокий уровень звука
+vs2-fa                    , triangle                       , \uf2ec,     ,    ,    ,     ,    ,     ,       ,      , Signal Triangle                , Сигнал Треугольник
+vs2-fa                    , square                         , \uf0c8,     ,    ,    ,     ,    ,     ,       ,      , Signal Square                  , Сигнал Квадрат
+vs2-fa                    , pentagon                       , \ue790,     ,    ,    ,     ,    ,     ,       ,      , Signal Pentagon                , Сигнал Пятиугольник
+vs2-fa                    , hexagon                        , \uf312,     ,    ,    ,     ,    ,     ,       ,      , Signal Hexagon                 , Сигнал Шестиугольник
+vs2-fa                    , septagon                       , \ue820,     ,    ,    ,     ,    ,     ,       ,      , Signal Septagon                , Сигнал Семьугольник
+vs2-fa                    , octagon                        , \uf306,     ,    ,    ,     ,    ,     ,       ,      , Signal Octagon                 , Сигнал Восьмиугольник
+vs2-fa                    , circle                         , \uf111,     ,    ,    ,     ,    ,     ,       ,      , Signal Circle                  , Сигнал Круг
+
+vs2-registers             , led0                           , L0    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L0                      , Сигнал L0
+vs2-registers             , led1                           , L1    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L1                      , Сигнал L1
+vs2-registers             , led2                           , L2    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L2                      , Сигнал L2
+vs2-registers             , led3                           , L3    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L3                      , Сигнал L3
+vs2-registers             , led4                           , L4    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L4                      , Сигнал L4
+vs2-registers             , led5                           , L5    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L5                      , Сигнал L5
+vs2-registers             , led6                           , L6    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L6                      , Сигнал L6
+vs2-registers             , led7                           , L7    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L7                      , Сигнал L7
+vs2-registers             , led8                           , L8    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L8                      , Сигнал L8
+vs2-registers             , led9                           , L9    , 1.75,    , -20,     ,    ,     ,       ,      , Signal L9                      , Сигнал L9
+vs2-registers             , reg0                           , R0    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R0                      , Сигнал R0
+vs2-registers             , reg1                           , R1    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R1                      , Сигнал R1
+vs2-registers             , reg2                           , R2    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R2                      , Сигнал R2
+vs2-registers             , reg3                           , R3    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R3                      , Сигнал R3
+vs2-registers             , reg4                           , R4    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R4                      , Сигнал R4
+vs2-registers             , reg5                           , R5    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R5                      , Сигнал R5
+vs2-registers             , reg6                           , R6    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R6                      , Сигнал R6
+vs2-registers             , reg7                           , R7    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R7                      , Сигнал R7
+vs2-registers             , reg8                           , R8    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R8                      , Сигнал R8
+vs2-registers             , reg9                           , R9    , 1.75,    , -20,     ,    ,     ,       ,      , Signal R9                      , Сигнал R9

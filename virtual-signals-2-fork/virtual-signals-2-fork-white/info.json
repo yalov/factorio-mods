@@ -1,0 +1,14 @@
+{
+    "name": "virtual-signals-2-fork-white",
+    "version": "2.0.0",
+    "title": "Virtual Signals 2 Fork White",
+    "author": "flart,fe3dback",
+    "contact": "",
+    "homepage": "",
+    "dependencies": [
+        "base",
+        "! virtual-signals2"
+    ],
+    "factorio_version": "2.1",
+    "description": "White variant of Virtual Signals 2 Fork with transparent background, extra signals, and reorderable groups."
+}

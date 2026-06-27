@@ -1,0 +1,15 @@
+subgroup_ID               , count, name                      , order
+virtual-signal-special    ,     3, virtual-signal-special    , a
+virtual-signal-number     ,    10, virtual-signal-number     , b
+virtual-signal-letter     ,    30, virtual-signal-letter     , c
+virtual-signal-punctuation,     8, virtual-signal-punctuation, cb
+virtual-signal-math       ,    14, virtual-signal-math       , cd
+virtual-signal-color      ,     9, virtual-signal-color      , d
+virtual-signal            ,     7, virtual-signal            , e
+shapes                    ,    20, shapes                    , f
+arrows                    ,     8, arrows                    , g
+arrows-misc               ,     9, arrows-misc               , h
+pictographs               ,    31, pictographs               , i
+
+parameters                ,     4, parameters                , a
+qualities                 ,     1, qualities                 , b
