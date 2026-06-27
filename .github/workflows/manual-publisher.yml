@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # --- ROUTE A: Audit mode (Run if input is empty) ---
       - name: Audit and Print All Mods Status

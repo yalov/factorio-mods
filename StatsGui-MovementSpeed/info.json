@@ -1,10 +1,10 @@
 {
     "name": "StatsGui-MovementSpeed",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "title": "Stats GUI — Movement Speed",
     "author": "flart",
     "description": "Adds a movement speed to Stats GUI.\n\nUses coordinates, therefore supports any movement of a player: power suit, vehicles, tiles bonus, on belts, mods, etc.\nOptionally shows max speed, and amount of energy in the inventory for Jetpack mod.",
-    "factorio_version": "2.0",
+    "factorio_version": "2.1",
     "dependencies": [
         "base",
         "StatsGui",
