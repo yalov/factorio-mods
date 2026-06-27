@@ -1,0 +1,9 @@
+{
+  "name": "dummy-enemies",
+  "version": "1.0.2",
+  "title": "Dummy Enemies",
+  "author": "flart",
+  "factorio_version": "2.1",
+  "description": "Add Dummy Biter and Dummy Worm for the editor with no resistance and 10'000'000 HP (no autospawn)",
+  "dependencies": ["base"]
+}
