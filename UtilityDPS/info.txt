@@ -1,0 +1,28 @@
+## UtilityDPS
+
+Lightweight DPS monitor with per-type breakdown, cause/target/surface filters
+
+Features:
+- Per damage-type DPS with color coding (physical, explosion, fire, laser, electric, acid, poison)
+- Filters: 
+    - cause 
+        - character, 
+        - player force, 
+        - player force + no cause, 
+        - enemy
+        - any
+    - target
+        - enemy
+        - not ally, 
+        - any
+    - surface (current / all)
+- Compact DPS panel + optional event log (accepted/filtered hits with [+]/[-])
+- Pause / resume logging and clear log
+- Only active (event handlers registered) while at least one DPS window is open
+
+Usage:
+- Press the shortcut in the quickbar to toggle the DPS window
+- Use title bar buttons to toggle Settings or Log panels
+
+Performance:
+- Damage events ignored when no DPS windows are open

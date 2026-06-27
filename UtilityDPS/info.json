@@ -1,0 +1,9 @@
+{
+  "name": "UtilityDPS",
+  "version": "1.0.5",
+  "title": "Utility DPS",
+  "author": "flart",
+  "factorio_version": "2.1",
+  "description": "Lightweight DPS monitor with per-type breakdown, cause/target/surface filters",
+  "dependencies": ["base"]
+}
