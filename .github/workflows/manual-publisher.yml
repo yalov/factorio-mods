@@ -89,11 +89,13 @@ jobs:
           cd dist && zip -r "../$ZIP_NAME" . && cd ..
           echo "ZIP_PATH=$(pwd)/$ZIP_NAME" >> $GITHUB_ENV
 
-      - name: Upload to Factorio Mod Portal
+      - name: Upload to Factorio Mod Portal (Direct Curl)
         if: ${{ github.event.inputs.mod_folder_path != '' }}
-        uses: mchangrh/factorio-mod-upload@v2
-        with:
-          mod-name: ${{ steps.mod-info.outputs.name }}
-        env:
-          FACTORIO_MODS_TOKEN: ${{ secrets.FACTORIO_MODS_TOKEN }}
-          FILENAME: ${{ env.ZIP_PATH }}
+        run: |
+          echo "Uploading ${{ steps.mod-info.outputs.name }} to Factorio Mod Portal..."
+          
+          # This hits the single direct-upload multipart endpoint, bypassing S3 handshakes
+          curl -X POST "https://mods.factorio.com/api/mods/publish" \
+            -H "Authorization: Bearer ${{ secrets.FACTORIO_MODS_TOKEN }}" \
+            -F "mod=@${{ env.ZIP_PATH }}" \
+            --fail-with-body
